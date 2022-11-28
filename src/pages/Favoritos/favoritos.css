@@ -1,0 +1,99 @@
+
+.lista-personagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-person {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin: 10px auto;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.icon-name {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.icon-name strong {
+  padding: 5px;
+}
+.icon-name img {
+  width: 150px;
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description p {
+  padding: 10px;
+}
+
+.description .links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+  flex-direction: column;
+}
+.links a,
+button {
+  margin-top: 5px;
+}
+.links a {
+  background-color: white;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 12px;
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+.links a:hover {
+  transform: scale(1);
+  color: #fff;
+  background-color: #07b0ff;
+}
+
+.links button {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+.links button:hover {
+  transform: scale(1);
+  color: #fff;
+  background-color: #ff0707;
+}

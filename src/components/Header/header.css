@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  z-index: 99999;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.lista-favoritos-button {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 14px;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  transition: all 0.3s;
+  letter-spacing: 1px;
+  font-weight: bold;
+  transform: scale(0.9);
+}
+
+.lista-favoritos-button:hover {
+  background-color: #07b0ff;
+  color: #fff;
+  transform: scale(1);
+}
